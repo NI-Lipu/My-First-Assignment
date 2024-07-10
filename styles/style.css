@@ -111,5 +111,29 @@ color: #0D1321;
   font-weight: 600;
   padding: 12px 20px;
 }
+ /* Inspiration sec styles */
+
+ .my-inspiration{
+  max-width: 1140px;
+  margin: 90px auto 150px auto;
+ }
+ .my-inspiration h2{
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  color: #0D1321;
+  margin: 24px;
+ }
+ .my-inspiration p{
+  font-size: 16px;
+  opacity: .7;
+  color: #0D1321;
+  text-align: center;
+  margin: 48px;
+ }
+
+ .my-inspiration .yt-video{
+  padding: 32px;
+ }
 
 
