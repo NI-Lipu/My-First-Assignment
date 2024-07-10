@@ -58,3 +58,58 @@
   margin:0 335.5px 0 335.5px;
 }
 
+/* Web Development Style */
+.web-development{
+  width: 1140px;
+  height: 1393px;
+  
+  margin: 0px auto 90px auto;
+  padding: 80px;
+}
+
+.development-content{
+  
+  align-items: center;
+  
+}
+
+.development-title{
+  font-size: 32px;
+  font-weight: 800;
+  color: #0D1321;
+  text-align: center;
+}
+
+.development-description{
+  font-size: 16px;
+  color: #0D1321;
+  text-align: center;
+}
+.dev-cont-part{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+  
+
+}
+.dev-cont-part h4{
+font-size: 24px;
+font-weight: 700;
+opacity: .7;
+color: #0D1321;
+
+}
+.dev-cont-part p{
+font-size: 16px;
+/* opacity: 1; */
+color: #0D1321;
+}
+.dev-cont-part a button{
+  color: #0D1321;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 20px;
+}
+
+
