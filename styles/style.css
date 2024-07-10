@@ -122,18 +122,101 @@ color: #0D1321;
   font-weight: 900;
   text-align: center;
   color: #0D1321;
-  margin: 24px;
+  margin-bottom: 24px;
  }
  .my-inspiration p{
   font-size: 16px;
   opacity: .7;
   color: #0D1321;
   text-align: center;
-  margin: 48px;
+  margin-bottom: 48px;
  }
 
- .my-inspiration .yt-video{
+ .yt-video iframe{
   padding: 32px;
+  border-radius: 16px;
  }
+
+ /* My Current Target Styles */
+.my-current-target{
+  max-width: 1140px;
+  margin: 0 auto 111px auto;
+}
+
+.my-current-target h2{
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  color: #0D1321;
+  margin-bottom: 24px;
+}
+.my-current-target p{
+  font-size: 16px;
+  opacity: .7;
+  color: #0D1321;
+  text-align: center;
+  margin-bottom: 48px; 
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+.card-html{
+  background-color:rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.card-html h4{
+  font-size: 24px;
+  font-weight: 900;
+  color: #0D1321;
+  margin-top: 24px;
+}
+
+.card-html p{
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  opacity: .7;
+}
+.card-css{
+  background-color:rgba(0, 76, 232, 0.05);
+  border-radius: 16px;
+  padding: 40px;
+} 
+.card-css h4{
+  font-size: 24px;
+  font-weight: 900;
+  color: #0D1321;
+  margin-top: 24px;
+}
+.card-css p{
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  opacity: .7; 
+}
+.card-js{
+  background-color:rgba(255, 223, 0, 0.05);
+  border-radius: 16px;
+  padding: 40px; 
+}
+.card-js h4{
+  font-size: 24px;
+  font-weight: 900;
+  color: #0D1321;
+  margin-top: 24px; 
+}
+.card-js p{
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  opacity: .7;  
+}
+
+
 
 
